@@ -4,7 +4,7 @@
 [![Discord](https://img.shields.io/discord/831257098368319569)](https://discord.gg/EWeCbkjZVu) 
 [![Tweet about immudb!](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Tweet%20about%20immudb)](https://twitter.com/intent/tweet?text=immudb:%20lightweight,%20high-speed%20immutable%20database!&url=https://github.com/codenotary/immudb)
 
-### Official [immudb] client for nodejs.
+### Official [immudb] client for nodejs
 
 [immudb]: https://immudb.io/
 
