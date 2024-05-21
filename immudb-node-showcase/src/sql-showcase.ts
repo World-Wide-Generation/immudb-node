@@ -76,7 +76,7 @@ async function sqlSchowcase() {
     console.log('insertTestTableFirstPK:', insertTestTableFirstPK)
     console.log('insertTestTableUpdatedRowsCount:', insertTestTableUpdatedRowsCount)
 
-    const res = await client.sqlQuery({ sql: 'SELECT * FROM test_table' })
+    const res = await client.sqlQuery({ sql: 'SELECT * FROM testtable' })
     for await (let row of res) {
         console.log(row);
     }
