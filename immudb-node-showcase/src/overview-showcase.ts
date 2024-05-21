@@ -6,10 +6,6 @@ import {
     stream,
 } from '@codenotary/immudb-node'
 
-
-
-
-
 overviewSchowcase()
     .catch(console.error)
 

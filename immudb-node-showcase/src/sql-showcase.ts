@@ -13,14 +13,10 @@ import {
     stream,
 } from '@codenotary/immudb-node'
 
-
-
-
-
-sqlSchowcase()
+sqlShowcase()
     .catch(console.error)
 
-async function sqlSchowcase() {
+async function sqlShowcase() {
 
     const client = new Client({
         host: '127.0.0.1',
