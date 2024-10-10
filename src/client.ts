@@ -496,7 +496,7 @@ export class ImmudbClient {
           });
         })
 
-        call.on('_metadata', meta => {
+        call.on('_metadata', (meta: Metadata) => {
           this._serverUUID = meta.get('immudb-uuid')[0]
         })
       });
