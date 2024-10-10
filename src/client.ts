@@ -1,5 +1,5 @@
 import * as dotenv from 'dotenv';
-import { Metadata } from 'grpc';
+import { Metadata } from '@grpc/grpc-js';
 import * as grpc from '@grpc/grpc-js';
 import * as empty from 'google-protobuf/google/protobuf/empty_pb';
 
@@ -16,7 +16,7 @@ import { CLIENT_INIT_PREFIX, DEFAULT_DATABASE, DEFAULT_ROOTPATH } from './consts
 import { getSQLValue } from './common';
 import Parameters, { SQLValue, SQLColumnDescription, SQLTableDescription, SQLRowDescription, } from '../types/parameters'
 
-class ImmudbClient {
+export class ImmudbClient {
   public state: State;
 
   public client: services.ImmuServiceClient;
